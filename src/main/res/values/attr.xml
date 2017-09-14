@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RollView">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="circleFilledRadius" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="circleStroke" format="dimension"/>
+        <attr name="circleToBottom" format="dimension"/>
+        <attr name="circleMargin" format="dimension"/>
+    </declare-styleable>
+</resources>
