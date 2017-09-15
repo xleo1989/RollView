@@ -1,8 +1,11 @@
 # RollView
 ---
+
 ***example***
+
 **xml**
-    <com.x.leo.rollview.RollView
+
+      <com.x.leo.rollview.RollView
                 android:layout_width="match_parent"
                 android:id = "@+id/rv_me"
                 android:layout_height="160dp"
@@ -14,7 +17,8 @@
                 app:circleToBottom="@dimen/dp10"
                 ></com.x.leo.rollview.RollView>
 **java**
-    mHeaderRollerAdapter = new RollViewAdapter(getContext(),mDatas);
+
+      mHeaderRollerAdapter = new RollViewAdapter(getContext(),mDatas);
             mHeaderRollerAdapter.setOnItemClickListener(new OnItemClickListener() {
                 @Override
                 public void onItemClick(View view, int data) {
@@ -23,5 +27,7 @@
                     startActivity(intent);
                 }
             });
-    mHeaderRoller.setAdapter(mHeaderRollerAdapter);
+      mHeaderRoller.setAdapter(mHeaderRollerAdapter);
+
+  
 
