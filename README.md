@@ -29,5 +29,5 @@
             });
       mHeaderRoller.setAdapter(mHeaderRollerAdapter);
 
-  
+
 
