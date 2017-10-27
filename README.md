@@ -21,7 +21,7 @@
       mHeaderRollerAdapter = new RollViewAdapter(getContext(),mDatas);
             mHeaderRollerAdapter.setOnItemClickListener(new OnItemClickListener() {
                 @Override
-                public void onItemClick(View view, int data) {
+                public void onItemClick(View viewModel, int data) {
                     Intent intent = new Intent(getContext(), ActivityDetailAcivity.class);
                     intent.putExtra(FieldParams.ACTIVITY_DETAIL_IMAGE_URL, dataBanner.get(data).getUrl());
                     startActivity(intent);
