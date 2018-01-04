@@ -148,7 +148,9 @@ class RollView(context: Context?, attributes: AttributeSet) : ViewPager(context,
 
     override fun onDrawForeground(canvas: Canvas?) {
         super.onDrawForeground(canvas)
-        drawCircles(canvas)
+        if (adapter != null && adapter.count >= 2) {
+            drawCircles(canvas)
+        }
     }
 
     private fun drawCircles(canvas: Canvas?) {
